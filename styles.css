@@ -36,7 +36,21 @@ h1 {
 		rgb(245, 62, 113),
 		rgb(162, 27, 27));
 	
-	box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+	box-shadow: 0 0 20px 0 rgba(169, 50, 38, 0.8);
+}
+.purple {
+	background: linear-gradient(#8E44AD, #D2B4DE, #a569bd);
+
+	box-shadow: 0 0 20px 0 ##AF7AC5cc;
+}
+
+.yellow {
+	background: linear-gradient(
+		#D4AC0D,
+		hsl(48, 90%, 60%),
+		hsl(48, 89%, 50%)
+	);
+	box-shadow: 0 0 20px 0 #f1c40f;
 }
 
 .green {
